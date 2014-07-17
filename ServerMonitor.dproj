@@ -3,7 +3,7 @@
 			<ProjectGuid>{D4A3A9BB-81B2-45ED-8C87-6F797BB88925}</ProjectGuid>
 			<ProjectVersion>12.0</ProjectVersion>
 			<MainSource>ServerMonitor.dpr</MainSource>
-			<Config Condition="'$(Config)'==''">Release</Config>
+			<Config Condition="'$(Config)'==''">Debug</Config>
 			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
@@ -47,31 +47,6 @@
 			<DCCReference Include="UnitMain.pas">
 				<Form>FormMain</Form>
 			</DCCReference>
-			<DCCReference Include="UnitFormSettings.pas">
-				<Form>FormSettings</Form>
-			</DCCReference>
-			<DCCReference Include="UnitINI.pas"/>
-			<DCCReference Include="UnitProcess.pas"/>
-			<RcItem Include="img\Mon_off_off.ico">
-				<ResourceType>Icon</ResourceType>
-				<ResourceId>Icon_off_off</ResourceId>
-			</RcItem>
-			<RcItem Include="img\DragonsApache.ico">
-				<ResourceType>Icon</ResourceType>
-				<ResourceId>Icon_Application</ResourceId>
-			</RcItem>
-			<RcItem Include="img\Mon_off_on.ico">
-				<ResourceType>Icon</ResourceType>
-				<ResourceId>Icon_off_on</ResourceId>
-			</RcItem>
-			<RcItem Include="img\Mon_on_off.ico">
-				<ResourceType>Icon</ResourceType>
-				<ResourceId>Icon_on_off</ResourceId>
-			</RcItem>
-			<RcItem Include="img\Mon_on_on.ico">
-				<ResourceType>Icon</ResourceType>
-				<ResourceId>Icon_on_on</ResourceId>
-			</RcItem>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -98,11 +73,11 @@
 					<VersionInfo>
 						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
 						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
-						<VersionInfo Name="MajorVer">1</VersionInfo>
-						<VersionInfo Name="MinorVer">1</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">2</VersionInfo>
-						<VersionInfo Name="Debug">True</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
 						<VersionInfo Name="Private">False</VersionInfo>
@@ -113,15 +88,14 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName">Dragons-portal</VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">1.1.0.2</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">0.0.0.0</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright">Dragons-portal.org</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
-						<VersionInfoKeys Name="OriginalFilename">ServerMonitor</VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename"/>
 						<VersionInfoKeys Name="ProductName">Server monitor</VersionInfoKeys>
 						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
-						<VersionInfoKeys Name="Comments">Mady by Anatoly Simkin</VersionInfoKeys>
-						<VersionInfoKeys Name="Contacts">grag-net@ya.ru</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
 					</VersionInfoKeys>
 					<Excluded_Packages>
 						<Excluded_Packages Name="$(BDS)\bin\bcboffice2k120.bpl">CodeGear C++Builder Office 2000 Servers Package</Excluded_Packages>

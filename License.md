@@ -7,7 +7,7 @@ Copyright 2009 The Apache Software Foundation
 Copyright (c) 1999 - 2006 The PHP Group. All rights reserved.
 [MySQL 5.1] - GNU GENERAL PUBLIC LICENSE
 Copyright (C) 1989, 1991 Free Software Foundation, Inc. 
-[Server Monitor 1.1] - GNU GENERAL PUBLIC LICENSE
+[Server Monitor Lite] - GNU GENERAL PUBLIC LICENSE
 Dragons-Portal (c), 2010
 јвторы сборки, администраци€ сайта, содержащего файл-сервер, а так же портала, предоставл€ющего игровые сервера, не несут никакой ответственности за действи€ конечных пользователей.
 
