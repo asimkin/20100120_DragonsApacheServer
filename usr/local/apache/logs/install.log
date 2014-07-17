@@ -1,0 +1,5 @@
+Installing Apache HTTP 2.0 server with
+ DomainName =    localhost
+ ServerName =    localhost
+ ServerAdmin =   admin@server.domain
+ ServerPort =    80

@@ -1,0 +1,10 @@
+100202 18:42:02 [Note] Plugin 'FEDERATED' is disabled.
+100202 18:42:02 [Note] Plugin 'InnoDB' is disabled.
+100202 18:42:02 [Note] Event Scheduler: Loaded 0 events
+100202 18:42:02 [Note] \usr\local\mysql5\bin\mysqld.exe: ready for connections.
+Version: '5.1.40-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100202 19:41:34 [Note] Plugin 'FEDERATED' is disabled.
+100202 19:41:34 [Note] Plugin 'InnoDB' is disabled.
+100202 19:41:34 [Note] Event Scheduler: Loaded 0 events
+100202 19:41:34 [Note] \usr\local\mysql5\bin\mysqld.exe: ready for connections.
+Version: '5.1.40-community'  socket: ''  port: 3306  MySQL Community Server (GPL)

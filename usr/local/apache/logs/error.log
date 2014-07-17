@@ -1,0 +1,15 @@
+[Tue Feb 02 19:41:34 2010] [warn] pid file Z:/usr/local/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 02 19:41:34 2010] [notice] Apache/2.2.14 (Win32) PHP/5.2.12 configured -- resuming normal operations
+[Tue Feb 02 19:41:34 2010] [notice] Server built: Sep 28 2009 22:41:08
+[Tue Feb 02 19:41:34 2010] [notice] Parent: Created child process 4284
+[Tue Feb 02 19:41:34 2010] [notice] Child 4284: Child process is running
+[Tue Feb 02 19:41:34 2010] [notice] Child 4284: Acquired the start mutex.
+[Tue Feb 02 19:41:34 2010] [notice] Child 4284: Starting 256 worker threads.
+[Tue Feb 02 19:41:34 2010] [notice] Child 4284: Starting thread to listen on port 80.
+[Tue Feb 02 19:41:34 2010] [notice] Child 4284: Starting thread to listen on port 80.
+[Tue Feb 02 19:41:44 2010] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 02 19:41:44 2010] [notice] Child 4284: Exit event signaled. Child process is ending.
+[Tue Feb 02 19:41:45 2010] [notice] Child 4284: Released the start mutex
+[Tue Feb 02 19:41:46 2010] [notice] Child 4284: All worker threads have exited.
+[Tue Feb 02 19:41:51 2010] [notice] Child 4284: Child process is exiting
+[Tue Feb 02 19:41:51 2010] [notice] Parent: Child process exited successfully.
